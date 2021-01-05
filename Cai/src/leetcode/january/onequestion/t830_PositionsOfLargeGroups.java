@@ -44,4 +44,10 @@ public class t830_PositionsOfLargeGroups {
         }
         return ret;
     }
+
+    public static void main(String[] args) {
+        t830_PositionsOfLargeGroups groups = new t830_PositionsOfLargeGroups();
+        System.out.println(groups.largeGroupPositions("bububuuububububhoiiikakkkamkniabibaigodiyyyyydbiubdiiyyyyyvuvivivyvvytttppppiapoapaiipa"));
+        System.out.println(groups.largeGroupPositions("abbxxxxzzy"));
+    }
 }
