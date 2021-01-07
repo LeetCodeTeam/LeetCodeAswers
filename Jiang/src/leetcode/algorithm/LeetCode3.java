@@ -14,7 +14,7 @@ import java.util.HashMap;
  * @date 2021/1/7-18:56
  */
 
-public class LeetCode3 {
+public class LeetCode_3 {
     public int lengthOfLongestSubstring(String s) {
         //滑动窗口的头指针
         int start = 0;
@@ -40,8 +40,8 @@ public class LeetCode3 {
     public static void main(String[] args) {
         String str = new String();
         str = "abcabcbb";
-        LeetCode3 leetCode3 = new LeetCode3();
-        int i = leetCode3.lengthOfLongestSubstring(str);
+        LeetCode_3 leetCode_3 = new LeetCode_3();
+        int i = leetCode_3.lengthOfLongestSubstring(str);
         System.out.println(i);
     }
 }
